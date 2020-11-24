@@ -2,7 +2,18 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "Astray"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/Astray": true
+		},
+		"liveServer.settings.multiRootWorkspaceName": "astray.workspace"
+
+	}
 }
